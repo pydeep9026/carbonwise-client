@@ -12,6 +12,7 @@ import Settings from './components/store/settings/settings';
 import Dashboard from './components/admin/dashboard/dashboard';
 import Allproducts from './components/admin/allproducts/allproducts';
 import Header from './components/layout/header/header';
+import Footer from './components/layout/footer/footer';
 
 
 
@@ -43,6 +44,7 @@ function App() {
       {/*admin routes*/}
 
     </Routes>
+    <Footer/>
     </Router>
     </>
   );
