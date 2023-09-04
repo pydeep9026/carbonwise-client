@@ -182,7 +182,7 @@ const Header = () => {
                         <div className="col-2">
                             <h2>
                                 <Link className="text-white" style={{ fontSize: '28px' }}>
-                                    Digitic.
+                                    CarbonWise.  
                                 </Link>
                             </h2>
                         </div>
