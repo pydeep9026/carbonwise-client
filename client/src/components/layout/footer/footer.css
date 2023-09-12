@@ -1,0 +1,113 @@
+/* Footer Styles */
+
+.footer {
+  background-color: #002132;
+  padding: 5rem;
+  text-align: center;
+}
+
+.social-networks {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -4%;
+}
+
+.social-networks-title {
+  margin-right: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin-right: 0.5rem;
+  color: white;
+}
+
+.social-icon i{
+  font-size: 1.5rem;
+}
+
+.footer-content {
+  color:white;
+  padding: 1rem 0;
+}
+
+.container .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.services{
+  margin-top: 120px;
+
+}
+
+.footer-title {
+  font-size: medium;
+  color:white;
+  margin-bottom: 0.3rem;
+}
+
+.row img{
+  width: 140px;
+  height: 120px;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.row p{
+  margin-bottom: 0.4rem;
+}
+
+.row .tagline{
+  margin-top: -1.5rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color:var(--color-sec-300);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: var(--font-weight-100);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: rgb(70, 188, 70);
+}
+
+.footer-bottom {
+  background-color: rgb(0, 0, 0, 0.05);
+  padding: 1rem;
+}
+
+.footer-bottom-text {
+  margin-bottom: 0;
+  color: white ;
+}
+
+.footer .icon {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.socialdata{
+  display:flex;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.footer-content img{
+position: absolute;
+margin-bottom: 350px;
+width: 130px;
+height: 110px;
+}
+
+

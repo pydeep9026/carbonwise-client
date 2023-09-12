@@ -1,0 +1,145 @@
+
+
+
+.productsgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    width: 95vw;
+    height: auto;
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.product-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    margin: auto;
+    height: 370px;
+    position: relative;
+}
+
+.zerocarbon img{
+    width: 60px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.product-card .product-image {
+    height: 240px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.carausel-ads1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+
+.carauselads {
+    width: 55rem;
+    height: 200px;
+    margin-top: -250px;
+}
+
+.carauselads img{
+    border-radius: 1rem;
+}
+
+.product-card .product-image .product-imagee {
+    object-fit: contain;
+}
+
+.product-card .product-image>.product-imagee:last-child {
+    display: none;
+}
+
+.product-card:hover .product-image >.product-imagee:nth-child(1) {
+    display: none;
+}
+
+.product-card:hover .product-image > .product-imagee:last-child {
+    display: block;
+}
+
+.product-card:hover .action-bar {
+    right: 15px;
+}
+
+.product-card .product-details h6 {
+    color: var(--color-bf4800);
+    font-size: 13px;
+}
+
+.product-card .product-details h5 {
+    font-size: 15px;
+    color: var(--color-1c1c1b);
+}
+
+.product-card .product-details p.price {
+    font-size: 16px;
+    color: var(--color-1c1c1b);
+}
+
+.product-card p.description {
+    font-size: 13px;
+    color: var(--color-777777);
+    margin-right: 30px;
+}
+
+.action-bar {
+    position: absolute;
+    top: 24%;
+    right: -23px;
+    transition: 0.3s;
+}
+
+.action-barit{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.action-barit button{
+    border: 0;
+    background-color: transparent;
+}
+
+.wishlist-icon {
+    position: absolute;
+    top:16%;
+    right: 16px
+}
+
+.wishlist-icon button{
+    border: 0;
+    background-color: transparent;
+
+}
+
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px;
+}
+
+
+@media (max-width: 500px) {
+    .carauselads {
+        width: 90%; 
+        height: auto; 
+        margin-top: 0; 
+}
+
+}
+
