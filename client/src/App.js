@@ -10,7 +10,7 @@ import Profile from './components/store/profile/profile';
 import Orders from './components/store/orders/orders';
 import Settings from './components/store/settings/settings';
 import Dashboard from './components/admin/dashboard/dashboard';
-import Allproducts from './components/admin/allproducts/allproducts';
+import Allproducts from './components/admin/allproducts/allprods';
 import Header from './components/layout/header/header';
 import Footer from './components/layout/footer/footer';
 
